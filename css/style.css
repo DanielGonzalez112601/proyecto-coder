@@ -10,21 +10,20 @@ header{
     padding: 10px;
 }
 header nav a{
+    font-family: 'DynaPuff', cursive;
+    font-weight: 700;
     color: white;
     font-size: 30px;
     text-decoration: underline;
     margin: 9px;
     padding: 10px;
     height: 300px;
-    /* border: 1px solid white; */
+
 }
 header nav h1{
     font-size: 40px;
 }
-header nav img{
-    height: 150px;
-    width: 400;
-}
+
 h1{ 
     font-family: 'DynaPuff', cursive;
     font-weight: 700;
@@ -43,18 +42,23 @@ main{
     text-align: center;
     font-size: 20px;
 
-    padding: 10px;
 }
 main img{
 height: 300px;
 width: 300px;
-    margin: 20px;
+
 }
 main div img{
     height: 100px;
     width: 100px;
+    display: inline-block;
 
-    padding: 10px;
+    /* padding: 10px; */
+
+}
+.marcas{
+    display: inline-flex;
+    margin: 5px;
 
 }
 
@@ -62,12 +66,7 @@ main div img{
     width: 400px;
     height: 400px;
 }
-.marcas{
-    display: inline-block;
-    height: 90px;
-    width: 90px;
-    margin: 10px;
-}
+
 main p{
     margin: 15px;
     margin-bottom: 5px;
@@ -117,14 +116,35 @@ margin: 10px;
 padding: 10px;
 }
 
-@media (max-width: 425px){
+@media (max-width: 460px){
     .imagenes-main {
-height: 250px;
-width: 400px;
+height: 220px;
+width: 310px;
 margin: 0;
 padding: 0;
     }
 }
+@media (max-width: 450px){
+    main div img {
+        display: inline-flex;
+        height: 45px;
+        width: 45px;
+        margin: 0;
+        padding: 0;
+    
+    }
+}
+@media(max-width:450px ){
+    main img {
+        height: 280px;
+        width: 280px;
+    }
+}
+
 .imagenes-main:hover{
     transform: scale(1.2);
+}
+.tamaño{
+    width: 420px;
+    height: 315px;
 }
