@@ -1,0 +1,29 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px; }
+  
+  header nav a {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 9px;
+    padding: 10px;
+    height: 300px; }
+  
+  header nav h1 {
+    font-size: 40px; 
+  }
+  header nav ul li {
+    display: inline-block;
+  
+  }
+  @media (max-width: 450px){
+    .nav-index{
+      font-size: 16px;
+      display: inline;
+    }
+  }
