@@ -46,7 +46,9 @@ main {
 
 main img {
   height: 300px;
-  width: 300px; }
+  width: 300px;
+  border-radius: 30%;
+ }
 
 main div img {
   height: 100px;
@@ -114,7 +116,10 @@ footer ul img {
   height: 400px;
   width: 600px;
   margin: 10px;
-  padding: 10px; }
+  padding: 10px;
+  border-radius: 20px;
+
+ }
 
 @media (max-width: 460px) {
   .imagenes-main {
@@ -153,7 +158,7 @@ footer ul img {
   }
 
 .imagenes-main:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
   transition: all 300ms; 
 }
 .hover-logos{
