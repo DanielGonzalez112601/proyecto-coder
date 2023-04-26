@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+header nav a {
+  font-family: "DynaPuff", cursive;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+  margin: 9px;
+  padding: 10px;
+  height: 300px;
+}
+
+header nav h1 {
+  font-size: 40px;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+@media (max-width: 450px) {
+  .nav-index {
+    font-size: 16px;
+    display: inline;
+  }
+}
+h1 {
+  font-family: "DynaPuff", cursive;
+  font-weight: 700;
+  color: #f8f8f8;
+  margin: 20%;
+  padding: 20px;
+  height: 90px;
+}
+
+main h1 {
+  text-decoration: underline;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.493);
+  color: #f3eaea;
+  text-align: center;
+  font-size: 20px;
+}
+
+.fondo-mujer {
+  background-color: rgb(185, 128, 137);
+}
+
+.fondo-niños {
+  background-color: rgb(75, 214, 214);
+}
+
+.fondo-hombre {
+  background-color: blue;
+}
+
+main img {
+  height: 300px;
+  width: 300px;
+}
+
+main div img {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  /* padding: 10px; */
+}
+
+main p {
+  margin: 15px;
+  margin-bottom: 5px;
+}
+
+.marcas {
+  display: inline-flex;
+  margin: 5px;
+}
+
+.tamaño {
+  width: 410px;
+  height: 315px;
+}
+
+.imagenes-main {
+  height: 400px;
+  width: 600px;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 460px) {
+  .imagenes-main {
+    height: 220px;
+    width: 310px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 450px) {
+  main div img {
+    display: inline-flex;
+    height: 45px;
+    width: 45px;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 450px) {
+  main img {
+    height: 280px;
+    width: 280px;
+  }
+}
+footer {
+  font-family: "DynaPuff", cursive;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.644);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+}
+
+footer ul h4 {
+  padding: 16px;
+}
+
+footer ul a {
+  margin: 15px;
+}
+
+footer ul img {
+  margin: 10px;
+  padding: 10px;
+}
+
+footer ul li {
+  display: block;
+}
+
+.hover {
+  font-size: 20px;
+}
+
+.hover:hover {
+  font-weight: bold;
+  transition: all 300ms;
+}
+
+.hover-imagenes {
+  transition: all 300ms;
+}
+
+.hover-imagenes:hover {
+  transform: scale(1.1, 1);
+}
+
+.hover-logos {
+  transition: all 300ms;
+}
+
+.hover-logos:hover {
+  transform: scale(1.3);
+}
+
+.imagenes-main:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}/*# sourceMappingURL=main.css.map */

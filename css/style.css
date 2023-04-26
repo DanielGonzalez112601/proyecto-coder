@@ -142,6 +142,15 @@ footer ul img {
       display: inline;
     }
   }
+  .fondo-mujer{
+    background-color: rgb(185, 128, 137);
+}
+.fondo-niños{
+  background-color: rgb(68, 175, 175);
+  }
+  .fondo-hombre{
+      background-color: blue;
+  }
 
 .imagenes-main:hover {
   transform: scale(1.2);
