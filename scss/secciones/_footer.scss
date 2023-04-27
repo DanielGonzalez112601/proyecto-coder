@@ -11,8 +11,16 @@ footer {
     height: 50px;
     width: 50px;
     margin-top: 15px; }
+  .footer{
+    &__list{
+      padding: 10px;
   
-  
+    }
+  }
+  .imput{
+    padding: 10px;
+    margin: 10px;
+  }
   
   footer ul h4 {
     padding: 16px; }
