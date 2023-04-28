@@ -31,6 +31,22 @@ header nav ul li {
   display: inline-block;
 }
 
+.color-mujer {
+  color: rgb(185, 128, 137);
+}
+
+.color-niños {
+  color: rgb(75, 214, 214);
+}
+
+.color-hombre {
+  color: rgba(109, 109, 209, 0.658);
+}
+
+.color-contacto {
+  color: white;
+}
+
 @media (max-width: 450px) {
   .nav-index {
     font-size: 16px;
