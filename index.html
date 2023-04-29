@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="encontra la mejor indumentaria deportiva en Global Sport" >
+    <meta name="description" content="encontra la mejor indumentaria deportiva en Global Sport">
     <meta name="keywords" content="dpeortes, indumentaria, hombre, mujer, niños, marcas">
     <link rel="shortcurt icon" href="./imagenes/logo.webp">
     <link rel="stylesheet" href="./css/style.css">
@@ -16,15 +16,25 @@
 </head>
 
 <body>
-    <header >
-        <nav>
-            <ul class="nav-index">
-                <li> <a href="./index.html">INICIO</a></li>
-                <li> <a href="./paginas/mujer.html">MUJER</a></li>
-                <li> <a href="./paginas/niños..html">NIÑOS</a></li>
-                <li> <a href="./paginas/hombre.html">HOMBRE</a></li>
-                <li> <a href="./paginas/contacto.html">CONTACTO</a></li>
-            </ul>
+    <header>
+
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h5 class="text-white h4"><a class="nav-index" href="./paginas/mujer.html">MUJER</a> </h5>
+                <h5 class="text-white h4"><a class="nav-index" href="./paginas/niños..html">NIÑOS</a> </h5>
+                <h5 class="text-white h4"><a class="nav-index" href="./paginas/hombre.html">HOMBRE</a> </h5>
+                <h5 class="text-white h4"><a class="nav-index" href="./paginas/contacto.html">CONTACTO</a> </h5>
+                <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </nav>
 
     </header>
@@ -51,17 +61,18 @@
     </main>
 
     <footer class="footer">
-        <a class="hover" href="./index.html">VOLVER ARRIBA</a>
-        <h2>INFORMACION</h2>
+
+        <a class="hover nav-index" href="./index.html">VOLVER ARRIBA</a>
+        <h2>INFORMACIÓN</h2>
         <ul>
             <li class="footer__list"><a href="#">Como realizar cambios</a> </li>
-            <li class="footer__list"><a href="#">Envios</a> </li>
+            <li class="footer__list"><a href="#">Envíos</a> </li>
             <li class="footer__list"><a href="#">Preguntas fracuentes</a> </li>
             <form action="#"></form>
-            <h4> SUSCRIBETE </h4>
+            <h3> SUSCRÍBETE </h3>
             <input type="text" placeholder="CORREO ELECTRONICO ">
-            <input type="submit" value="SUSCRIBIRME">
-            <h3>Redes Sociales</h3>
+            <input type="submit" value="ENVIAR">
+            <h4>Redes Sociales</h4>
             <img class="hover-logos" src="./logos de marcas/logos-de-redes/logo-facebook.png" alt="logo de facebook">
 
             <img class="hover-logos" src="./logos de marcas/logos-de-redes/logo-instagram.png" alt="logo de instagram">
