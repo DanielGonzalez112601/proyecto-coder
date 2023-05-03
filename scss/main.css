@@ -9,7 +9,6 @@ header {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 10px;
 }
 
 header nav a {
@@ -33,6 +32,7 @@ header nav ul li {
 
 .nav-index {
   color: white;
+  padding: 1rem;
 }
 
 .color-mujer {
@@ -92,12 +92,11 @@ main img {
 main div img {
   height: 100px;
   width: 100px;
-  display: inline-block;
+  display: inline-flex;
 }
 
 main p {
-  margin: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .marcas {
@@ -116,6 +115,7 @@ main p {
   margin: 10px;
   padding: 10px;
   border-radius: 10%;
+  transition: all 300ms ease-in-out;
 }
 
 .mainco__imput {
@@ -126,7 +126,7 @@ main p {
   .imagenes-main {
     height: 220px;
     width: 310px;
-    margin: 0;
+    margin: 10px;
     padding: 0;
   }
 }
@@ -141,7 +141,7 @@ main p {
 }
 @media (max-width: 450px) {
   .tamaño {
-    width: 100vw;
+    width: 90vw;
   }
 }
 @media (max-width: 450px) {
@@ -220,5 +220,4 @@ footer ul li {
 
 .imagenes-main:hover {
   transform: scale(1.2);
-  transition: all 300ms;
 }/*# sourceMappingURL=main.css.map */
