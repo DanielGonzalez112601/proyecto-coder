@@ -25,7 +25,8 @@ header nav ul li {
 }
 .nav-index{
   color: white;
-  padding: 1rem;
+  display: block
+
 }
 .color-mujer{
   color: rgb(185, 128, 137);
@@ -40,3 +41,9 @@ header nav ul li {
   color: white;
 }
 
+@media (max-width: 450px){
+  .nav-index{
+    width: 90vw;
+  
+  }
+}
