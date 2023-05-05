@@ -23,27 +23,33 @@ header nav ul li {
   display: inline-block;
 
 }
-.nav-index{
+
+.nav-index {
   color: white;
-  display: block
+  display: block;
 
 }
-.color-mujer{
+
+.color-mujer {
   color: rgb(185, 128, 137);
 }
-.color-niños{
-  color:  rgb(75, 214, 214);;
+
+.color-niños {
+  color: rgb(75, 214, 214);
+  ;
 }
-.color-hombre{
-  color:  rgba(109, 109, 209, 0.658);;
+
+.color-hombre {
+  color: rgba(109, 109, 209, 0.658);
+  ;
 }
-.color-contacto{
+
+.color-contacto {
   color: white;
 }
 
-@media (max-width: 450px){
-  .nav-index{
+@media (max-width: 450px) {
+  .nav-index {
     width: 90vw;
-  
   }
 }

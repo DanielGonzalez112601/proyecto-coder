@@ -1,37 +1,44 @@
 footer {
-    font-family: 'DynaPuff', cursive;
-    font-weight: 400;
-    background-color: rgba(0, 0, 0, 0.644);
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    padding: 20px; }
-  
-  footer img {
-    height: 50px;
-    width: 50px;
-    margin-top: 15px; }
-  .footer{
-    &__list{
-      padding: 10px;
-  
-    }
-  }
-  .imput{
+  font-family: 'DynaPuff', cursive;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.644);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+}
+
+.footer {
+  &__list {
     padding: 10px;
-    margin: 10px;
+
   }
-  
-  footer ul h4 {
-    padding: 16px; }
-  
-  footer ul a {
-    margin: 15px; }
-  
-  footer ul img {
-    margin: 10px;
-    padding: 10px; }
-    footer ul li {
-      display: block;
-    }
- 
+}
+
+.imput {
+  padding: 10px;
+  margin: 10px;
+}
+
+footer ul h4 {
+  padding: 16px;
+}
+
+footer ul a {
+  margin: 15px;
+}
+
+footer ul img {
+  margin: 10px;
+  padding: 10px;
+}
+
+footer ul li {
+  display: block;
+}

@@ -44,7 +44,7 @@ main div img {
 }
 
 main p {
-    font-family:'DynaPuff', cursive;
+    font-family: 'DynaPuff', cursive;
     margin: 20px;
     text-decoration: underline;
 }
@@ -68,13 +68,16 @@ main p {
     border-radius: 10%;
     transition: all 300ms ease-in-out;
 }
+
 .mainco {
     background-color: rgba(117, 117, 117, 0.664);
+
     &__input {
         border-radius: 20px;
     }
 }
-.input{
+
+.input {
     margin: 15px;
 }
 
