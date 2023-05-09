@@ -1,22 +1,22 @@
 footer {
   font-family: 'DynaPuff', cursive;
   font-weight: 400;
-  background-color: rgba(0, 0, 0, 0.644);
+  background-color: rgb(0, 0, 0);
   color: white;
   text-align: center;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 14px;
+  padding: 12px;
 }
 
 footer img {
   height: 50px;
   width: 50px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .footer {
   &__list {
-    padding: 10px;
+    padding: 6px;
 
   }
 }
@@ -27,16 +27,16 @@ footer img {
 }
 
 footer ul h4 {
-  padding: 16px;
+  padding: 8px;
 }
 
 footer ul a {
-  margin: 15px;
+  margin: 10px;
 }
 
 footer ul img {
-  margin: 10px;
-  padding: 10px;
+  margin: 8px;
+  padding: 8px;
 }
 
 footer ul li {
