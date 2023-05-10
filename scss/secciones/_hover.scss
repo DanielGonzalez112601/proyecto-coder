@@ -9,8 +9,7 @@
 
 .hover-imagenes {
   transition: all 300ms;
-  border-radius: 30%;
-  
+
 }
 
 .mainco__input:hover {
@@ -32,6 +31,6 @@
 
 .imagenes-main:hover {
   transform: scale(1.2);
-  // transition: all 300ms ease-in-out; 
+   transition: all 300ms ease-in-out;
 
 }
