@@ -57,11 +57,11 @@ header nav ul li {
   }
 }
 main {
-  background-color: rgb(131, 96, 96);
+  background-color: rgb(255, 255, 255);
   color: #000000;
   text-align: center;
   font-size: 20px;
-  padding: 5px;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -94,7 +94,7 @@ main p {
 }
 
 .fondo-nike {
-  background-color: rgba(160, 149, 149, 0.288);
+  background-color: rgb(255, 255, 255);
 }
 
 .encabezadonike {
@@ -106,7 +106,7 @@ main p {
   display: inline-block;
   width: 300px;
   height: 300px;
-  margin: 10px;
+  margin: 20px;
   border-radius: 10%;
 }
 
@@ -125,23 +125,32 @@ main p {
 }
 
 .parrafonike {
+  font-size: 14px;
   width: 600px;
-  text-align: center;
   margin: auto;
 }
 
 .adidasp {
-  margin-bottom: 20px;
+  margin: 10px;
 }
 
 .h2nike {
-  margin: 20px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  width: 95vw;
+  padding: 10px;
+  margin: 10px;
 }
 
 .encabezadoadidas {
   width: 95vw;
   height: 350px;
   margin: auto;
+}
+
+.fondoadidas {
+  background-color: white;
 }
 
 .zona1adidas {
@@ -153,14 +162,21 @@ main p {
 }
 
 .h2adidas {
-  width: 70vw;
-  margin: auto;
-  text-decoration: underline;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  width: 95vw;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px;
 }
 
 .parrafo1adidas {
-  margin: auto;
-  width: 70vw;
+  display: inline-block;
+  margin: 10px;
+  width: 80vw;
+  padding: 10px;
+  font-size: 14px;
 }
 
 .zona2adidas {
@@ -175,12 +191,14 @@ main p {
   height: 380px;
   width: 380px;
   margin: 20px;
+  padding: 10px;
 }
 
 .zona4adidas {
-  width: 90vw;
+  width: 85vw;
   height: 500px;
   margin: auto;
+  padding: 10px;
 }
 
 .tamaño {
@@ -240,7 +258,7 @@ main p {
   display: inline-block;
   height: 280px;
   width: 280px;
-  margin: 10px;
+  margin-bottom: 30px;
   padding: 10px;
 }
 
@@ -273,7 +291,7 @@ footer {
   color: white;
   text-align: center;
   font-size: 14px;
-  padding: 12px;
+  padding: 20px;
 }
 
 footer img {

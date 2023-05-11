@@ -1,9 +1,9 @@
 main {
-    background-color: rgb(131, 96, 96);
+    background-color: rgb(255, 255, 255);
     color: #000000;
     text-align: center;
     font-size: 20px;
-    padding: 5px;
+    padding-bottom:50px;
 
 }
 
@@ -20,12 +20,6 @@ main h1 {
     text-decoration: underline;
 }
 
-// main div img {
-//     height: 100px;
-//     width: 100px;
-//     display: inline-flex;
-
-// }
 .dominiomarcas {
     width: 95vw;
 }
@@ -45,7 +39,7 @@ main p {
 
 // nike
 .fondo-nike {
-    background-color: rgba(160, 149, 149, 0.288);
+    background-color: rgb(255, 255, 255);
 }
 
 .encabezadonike {
@@ -57,8 +51,9 @@ main p {
     display: inline-block;
     width: 300px;
     height: 300px;
-    margin: 10px;
+    margin: 20px;
     border-radius: 10%;
+    
 }
 
 .zona2nike {
@@ -73,21 +68,26 @@ main p {
     height: 300px;
     margin: 50px;
     border-radius: 5%;
+
 }
 
 .parrafonike {
-
+    font-size: 14px;
     width: 600px;
-    text-align: center;
     margin: auto;
 }
 
 .adidasp {
-    margin-bottom: 20px;
+    margin: 10px;
 }
 
 .h2nike {
-    margin: 20px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 95vw;
+    padding: 10px;
+    margin: 10px;
 }
 
 // adidas 
@@ -96,6 +96,9 @@ main p {
     width: 95vw;
     height: 350px;
     margin: auto;
+}
+.fondoadidas{
+    background-color: white;
 }
 
 .zona1adidas {
@@ -107,14 +110,21 @@ main p {
 }
 
 .h2adidas {
-    width: 70vw;
-    margin: auto;
-    text-decoration: underline;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 95vw;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .parrafo1adidas {
-    margin: auto;
-    width: 70vw;
+    display: inline-block;
+    margin: 10px;
+    width: 80vw;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .zona2adidas {
@@ -129,12 +139,14 @@ main p {
     height: 380px;
     width: 380px;
     margin: 20px;
+    padding: 10px;
 }
 
 .zona4adidas {
-    width: 90vw;
+    width: 85vw;
     height: 500px;
     margin: auto;
+    padding: 10px;
 }
 
 
@@ -205,7 +217,7 @@ main p {
     display: inline-block;
     height: 280px;
     width: 280px;
-    margin: 10px;
+    margin-bottom: 30px;
     padding: 10px;
 }
 
