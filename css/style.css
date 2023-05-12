@@ -29,14 +29,14 @@ header nav ul li {
   color: white;
   display: block; }
 
-.color-mujer {
-  color: #b98089; }
+.color-nike {
+  color: white; }
 
-.color-niños {
-  color: #4bd6d6; }
+.color-adidas {
+  color: white; }
 
-.color-hombre {
-  color: rgba(109, 109, 209, 0.658); }
+.color-puma {
+  color: #f3f1f1; }
 
 .color-contacto {
   color: white; }
@@ -81,19 +81,17 @@ main p {
 
 .encabezadonike {
   width: 90vw;
-  margin: 0%; }
+  padding: 10px; }
 
 .zona1nike {
   display: inline-block;
-  width: 300px;
-  height: 300px;
-  margin: 20px;
-  border-radius: 10%; }
+  width: 350px;
+  height: 350px;
+  margin: 20px; }
 
 .zona2nike {
   display: inline-block;
-  margin: 20px;
-  border-radius: 10%; }
+  margin: 20px; }
 
 .zona3nike {
   display: inline-block;
@@ -107,9 +105,6 @@ main p {
   width: 600px;
   margin: auto; }
 
-.adidasp {
-  margin: 10px; }
-
 .h2nike {
   background-color: black;
   color: white;
@@ -118,20 +113,23 @@ main p {
   padding: 10px;
   margin: 10px; }
 
+.adidasp {
+  margin: 10px; }
+
 .encabezadoadidas {
   width: 95vw;
   height: 350px;
-  margin: auto; }
+  margin: auto;
+  padding: 10px; }
 
 .fondoadidas {
   background-color: white; }
 
 .zona1adidas {
   display: inline-block;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  border-radius: 10%; }
+  width: 350px;
+  height: 350px;
+  margin: 10px; }
 
 .h2adidas {
   display: inline-block;
@@ -168,15 +166,59 @@ main p {
   margin: auto;
   padding: 10px; }
 
+.puma {
+  width: 95vw;
+  margin: auto;
+  padding: 10px; }
+
+.zona1puma {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 20px; }
+
+.h2puma {
+  width: 95vw;
+  font-size: 30px;
+  padding-top: 15px;
+  margin: 10px;
+  text-align: center; }
+
+.parrafopuma {
+  width: 95vw;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center; }
+
+.zona2puma {
+  display: inline-block;
+  width: 450px;
+  height: 500px;
+  margin: 20px; }
+
+.zona3puma {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 20px; }
+
+.zona4puma {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 20px; }
+
 .tamaño {
   width: 410px;
   height: 315px;
   margin: 10px; }
 
+.limite {
+  width: 70vw;
+  display: inline-block; }
+
 .mainco {
-  background-color: rgba(117, 117, 117, 0.664); }
-  .mainco__input {
-    border-radius: 20px; }
+  background-color: rgba(0, 0, 0, 0.664); }
 
 .input {
   margin: 15px; }
@@ -250,6 +292,10 @@ footer img {
   height: 50px;
   width: 50px;
   margin-top: 10px; }
+
+.volverarriba {
+  display: flex;
+  color: white; }
 
 .footer__list {
   padding: 6px; }
