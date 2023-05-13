@@ -56,9 +56,9 @@ h1 {
   font-family: 'DynaPuff', cursive;
   font-weight: 700;
   color: #030303;
-  margin: 10%;
-  padding: 10px;
-  height: 90px; }
+  margin: 20px;
+  padding: 30px;
+  height: 40px; }
 
 main h1 {
   text-decoration: underline; }
@@ -75,171 +75,6 @@ main p {
   margin: 5px;
   height: 100px;
   width: 100px; }
-
-.fondo-nike {
-  background-color: white; }
-
-.encabezadonike {
-  width: 90vw;
-  padding: 10px; }
-
-.zona1nike {
-  display: inline-block;
-  width: 350px;
-  height: 350px;
-  margin: 20px; }
-
-.zona2nike {
-  display: inline-block;
-  margin: 20px; }
-
-.zona3nike {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-  margin: 50px;
-  border-radius: 5%; }
-
-.parrafonike {
-  font-size: 14px;
-  width: 600px;
-  margin: auto; }
-
-.h2nike {
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  width: 95vw;
-  padding: 10px;
-  margin: 10px; }
-
-.adidasp {
-  margin: 10px; }
-
-.encabezadoadidas {
-  width: 95vw;
-  height: 350px;
-  margin: auto;
-  padding: 10px; }
-
-.fondoadidas {
-  background-color: white; }
-
-.zona1adidas {
-  display: inline-block;
-  width: 350px;
-  height: 350px;
-  margin: 10px; }
-
-.h2adidas {
-  display: inline-block;
-  background-color: black;
-  color: white;
-  width: 95vw;
-  margin-top: 20px;
-  font-size: 18px;
-  padding: 10px; }
-
-.parrafo1adidas {
-  display: inline-block;
-  margin: 10px;
-  width: 80vw;
-  padding: 10px;
-  font-size: 14px; }
-
-.zona2adidas {
-  display: inline-block;
-  width: 350px;
-  height: 500px;
-  margin: 10px; }
-
-.zona3adidas {
-  display: inline-block;
-  height: 380px;
-  width: 380px;
-  margin: 20px;
-  padding: 10px; }
-
-.zona4adidas {
-  width: 85vw;
-  height: 500px;
-  margin: auto;
-  padding: 10px; }
-
-.puma {
-  width: 95vw;
-  margin: auto;
-  padding: 10px; }
-
-.zona1puma {
-  display: inline-block;
-  width: 350px;
-  height: 350px;
-  margin: 20px; }
-
-.h2puma {
-  width: 95vw;
-  font-size: 30px;
-  padding-top: 15px;
-  margin: 10px;
-  text-align: center; }
-
-.parrafopuma {
-  width: 95vw;
-  margin: 20px;
-  font-size: 20px;
-  text-align: center; }
-
-.zona2puma {
-  display: inline-block;
-  width: 450px;
-  height: 500px;
-  margin: 20px; }
-
-.zona3puma {
-  display: inline-block;
-  width: 350px;
-  height: 350px;
-  margin: 20px; }
-
-.zona4puma {
-  display: inline-block;
-  width: 350px;
-  height: 350px;
-  margin: 20px; }
-
-.tamaño {
-  width: 410px;
-  height: 315px;
-  margin: 10px; }
-
-.limite {
-  width: 70vw;
-  display: inline-block; }
-
-.mainco {
-  background-color: rgba(0, 0, 0, 0.664); }
-
-.input {
-  margin: 15px; }
-
-@media (max-width: 600px) {
-  .imagenes-main {
-    height: 220px;
-    width: 310px;
-    margin: 10px;
-    padding: 0; } }
-
-@media (max-width: 600px) {
-  .marcas {
-    display: inline-flex;
-    height: 45px;
-    width: 45px;
-    margin: 0;
-    padding: 0; }
-  .parrafonike {
-    width: 400px;
-    padding: 20px; } }
 
 .zona1 {
   display: inline-flex;
@@ -261,23 +96,250 @@ main p {
   margin-bottom: 30px;
   padding: 10px; }
 
-@media (max-width: 500px) {
-  .zona1 {
-    height: 200px;
-    width: 300px; } }
+.h2inicio {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px;
+  width: 90vw;
+  background-color: black;
+  color: white; }
+
+.fondo-nike {
+  background-color: white; }
+
+.encabezadonike {
+  width: 95vw;
+  margin: auto;
+  padding: 10px; }
+
+.zona1nike {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  cursor: pointer; }
+
+.zona2nike {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer; }
+
+.zona3nike {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  cursor: pointer; }
+
+.parrafonike {
+  font-size: 14px;
+  width: 600px;
+  margin: auto; }
+
+.h2nike {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  width: 95vw;
+  padding: 10px;
+  margin: 10px; }
+
+.adidasp {
+  margin: 10px;
+  font-size: 17PX; }
+
+.encabezadoadidas {
+  width: 95vw;
+  margin: auto;
+  padding: 10px; }
+
+.fondoadidas {
+  background-color: white; }
+
+.zona1adidas {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  cursor: pointer; }
+
+.h2adidas {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  width: 95vw;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px; }
+
+.parrafo1adidas {
+  display: inline-block;
+  margin: 10px;
+  width: 80vw;
+  padding: 10px;
+  font-size: 14px; }
+
+.zona2adidas {
+  display: inline-block;
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+  cursor: pointer; }
+
+.zona3adidas {
+  display: inline-block;
+  height: 380px;
+  width: 380px;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer; }
+
+.zona4adidas {
+  width: 85vw;
+  height: 500px;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer; }
+
+.encabezadopuma {
+  width: 95vw;
+  margin: auto;
+  padding: 10px; }
+
+.zona1puma {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  cursor: pointer; }
+
+.h2puma {
+  width: 95vw;
+  font-size: 30px;
+  padding-top: 15px;
+  margin: 10px;
+  text-align: center; }
+
+.parrafopuma {
+  width: 95vw;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center; }
+
+.zona2puma {
+  display: inline-block;
+  width: 450px;
+  height: 500px;
+  margin: 20px;
+  cursor: pointer; }
+
+.zona3puma {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  cursor: pointer; }
+
+.zona4puma {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  cursor: pointer; }
+
+.tamaño {
+  width: 410px;
+  height: 315px;
+  margin: 10px; }
+
+.limite {
+  width: 70vw;
+  display: inline-block; }
+
+.mainco {
+  background-color: rgba(0, 0, 0, 0.664); }
+
+.h1contacto {
+  margin: 20px;
+  padding: 20px; }
+
+@media (max-width: 600px) {
+  .marcas {
+    display: inline-flex;
+    height: 45px;
+    width: 45px;
+    margin: 0;
+    padding: 0; }
+  .parrafonike {
+    width: 400px;
+    padding: 20px; } }
+
+@media (max-width: 600px) {
+  .zona1puma {
+    width: 300px;
+    height: 300px;
+    margin: 10px; }
+  .zona2puma {
+    width: 300px;
+    height: 380px;
+    margin: 10px; }
+  .zona3puma {
+    width: 300px;
+    height: 300px;
+    margin: 10px; }
+  .zona4puma {
+    width: 300px;
+    height: 300px;
+    margin: 10px; } }
+
+@media (max-width: 600px) {
+  .zona1nike {
+    width: 300px;
+    height: 300px;
+    margin: 10px; }
+  .zona2nike {
+    width: 300px;
+    height: 300px;
+    margin: 10px; }
+  .zona3nike {
+    width: 300px;
+    height: 300px;
+    margin: 10px; }
+  .nikep {
+    font-size: 17px; } }
+
+@media (max-width: 600px) {
+  .zona1adidas {
+    width: 300px;
+    height: 300px;
+    margin: 10px; }
+  .zona2adidas {
+    width: 300px;
+    height: 400px;
+    margin: 5px; }
+  .zona3adidas {
+    width: 300px;
+    height: 300px;
+    margin: 10px; }
+  .zona4adidas {
+    margin-top: 10px;
+    height: 300px; }
+  .adidasp {
+    font-size: 16px; } }
 
 @media (max-width: 600px) {
   .tamaño {
     width: 90vw; } }
 
 @media (max-width: 600px) {
+  .zona1 {
+    height: 400px;
+    width: 300px;
+    margin: 5px; }
   .zona2 {
     width: 300px;
     height: 200px;
-    margin: 0%; }
-  .zona2nike {
-    width: 300px;
-    height: 300px; } }
+    margin: 0%; } }
 
 footer {
   font-family: 'DynaPuff', cursive;
@@ -325,16 +387,17 @@ footer ul li {
   transition: all 300ms; }
 
 .hover-imagenes {
-  transition: all 300ms; }
+  transition: all 500ms ease-in-out; }
 
 .mainco__input:hover {
   background: rgba(184, 184, 206, 0.5); }
 
 .hover-imagenes:hover {
-  transform: scale(1.1, 1); }
+  filter: brightness(1.4); }
 
 .hover-logos {
-  transition: all 300ms; }
+  transition: all 300ms;
+  display: inline-block; }
 
 .hover-logos:hover {
   transform: scale(1.3); }
