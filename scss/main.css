@@ -82,7 +82,7 @@ main h1 {
 }
 
 main p {
-  font-family: "DynaPuff", cursive;
+  font-family: sans-serif;
   margin-bottom: 1rem;
 }
 
@@ -107,6 +107,7 @@ main p {
   width: 600px;
   margin: 1rem;
   padding: 2px;
+  cursor: pointer;
 }
 
 .zona3 {
@@ -298,12 +299,15 @@ main p {
   width: 410px;
   height: 315px;
   margin: 10px;
+  border-radius: 10%;
 }
 
 .limite {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 60vw;
   display: inline-block;
   height: 50px;
+  color: white;
 }
 
 .mainco {
@@ -316,8 +320,17 @@ main p {
 }
 
 .enviarcontacto {
-  margin: 10px;
-  padding: 8px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.inputcontacto {
+  display: inline-block;
+  width: 90px;
+  height: 60px;
+  border-radius: 20%;
+  color: rgb(25, 13, 141);
+  background-color: rgb(253, 253, 253);
 }
 
 @media (max-width: 700px) {
@@ -479,6 +492,8 @@ footer ul li {
   text-align: center;
   display: inline-block;
   color: white;
+  width: 60px;
+  height: 60px;
 }
 
 .hover {

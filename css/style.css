@@ -67,7 +67,7 @@ main h1 {
   width: 95vw; }
 
 main p {
-  font-family: 'DynaPuff', cursive;
+  font-family: sans-serif;
   margin-bottom: 1rem; }
 
 .marcas {
@@ -88,7 +88,8 @@ main p {
   height: 300px;
   width: 600px;
   margin: 1rem;
-  padding: 2px; }
+  padding: 2px;
+  cursor: pointer; }
 
 .zona3 {
   display: inline-block;
@@ -253,12 +254,15 @@ main p {
   display: inline-block;
   width: 410px;
   height: 315px;
-  margin: 10px; }
+  margin: 10px;
+  border-radius: 10%; }
 
 .limite {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 60vw;
   display: inline-block;
-  height: 50px; }
+  height: 50px;
+  color: white; }
 
 .mainco {
   background-color: rgba(0, 0, 0, 0.664); }
@@ -268,8 +272,16 @@ main p {
   padding: 20px; }
 
 .enviarcontacto {
-  margin: 10px;
-  padding: 8px; }
+  margin-top: 20px;
+  padding: 5px; }
+
+.inputcontacto {
+  display: inline-block;
+  width: 90px;
+  height: 60px;
+  border-radius: 20%;
+  color: #190d8d;
+  background-color: #fdfdfd; }
 
 @media (max-width: 700px) {
   .marcas {
@@ -399,7 +411,9 @@ footer ul li {
 .volverarriba {
   text-align: center;
   display: inline-block;
-  color: white; }
+  color: white;
+  width: 60px;
+  height: 60px; }
 
 .hover {
   font-size: 20px; }
