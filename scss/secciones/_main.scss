@@ -44,6 +44,7 @@ main p {
     height: 600px;
     width: 400px;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .zona2 {
@@ -60,6 +61,7 @@ main p {
     width: 280px;
     margin-bottom: 30px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .h2inicio {
@@ -244,14 +246,16 @@ main p {
 
 
 .tamaño {
+    display: inline-block;
     width: 410px;
     height: 315px;
     margin: 10px;
 }
 
 .limite {
-    width: 70vw;
+    width: 60vw;
     display: inline-block;
+    height: 50px;
 }
 
 .mainco {
@@ -259,25 +263,15 @@ main p {
 
 }
 
-// .input {
-//     margin: 15px;
-// }
 .h1contacto{
     margin: 20px;
     padding: 20px;
 }
-
-
-// @media (max-width: 600px) {
-//     .imagenes-main {
-//         height: 220px;
-//         width: 310px;
-//         margin: 10px;
-//         padding: 0;
-//     }
-// }
-
-@media (max-width: 600px) {
+.enviarcontacto{
+    margin: 10px;
+    padding: 8px;
+}
+@media (max-width: 700px) {
     .marcas {
         display: inline-flex;
         height: 45px;
@@ -341,6 +335,7 @@ main p {
     }
 }
 
+
 // media adidas
 @media (max-width: 600px) {
     .zona1adidas{
@@ -367,9 +362,12 @@ main p {
     }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 700px) {
     .tamaño {
-        width: 90vw;
+        display: inline-block;
+        width: 80vw;
+        margin: auto;
     }
 }
 

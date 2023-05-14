@@ -98,6 +98,7 @@ main p {
   height: 600px;
   width: 400px;
   margin: 1rem;
+  cursor: pointer;
 }
 
 .zona2 {
@@ -114,6 +115,7 @@ main p {
   width: 280px;
   margin-bottom: 30px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .h2inicio {
@@ -292,14 +294,16 @@ main p {
 }
 
 .tamaño {
+  display: inline-block;
   width: 410px;
   height: 315px;
   margin: 10px;
 }
 
 .limite {
-  width: 70vw;
+  width: 60vw;
   display: inline-block;
+  height: 50px;
 }
 
 .mainco {
@@ -311,7 +315,12 @@ main p {
   padding: 20px;
 }
 
-@media (max-width: 600px) {
+.enviarcontacto {
+  margin: 10px;
+  padding: 8px;
+}
+
+@media (max-width: 700px) {
   .marcas {
     display: inline-flex;
     height: 45px;
@@ -390,9 +399,11 @@ main p {
     font-size: 16px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .tamaño {
-    width: 90vw;
+    display: inline-block;
+    width: 80vw;
+    margin: auto;
   }
 }
 @media (max-width: 600px) {
@@ -412,9 +423,8 @@ footer {
   font-weight: 400;
   background-color: rgb(0, 0, 0);
   color: white;
-  text-align: center;
   font-size: 14px;
-  padding: 20px;
+  padding: 30px;
 }
 
 footer img {
@@ -423,13 +433,13 @@ footer img {
   margin-top: 10px;
 }
 
-.volverarriba {
-  display: flex;
-  color: white;
+.divvolverarriba {
+  display: block;
+  text-align: center;
 }
 
 .footer__list {
-  padding: 6px;
+  padding-bottom: 10px;
 }
 
 .imput {
@@ -441,17 +451,34 @@ footer ul h4 {
   padding: 8px;
 }
 
-footer ul a {
-  margin: 10px;
-}
-
-footer ul img {
-  margin: 8px;
-  padding: 8px;
+footer ul {
+  padding: 0;
 }
 
 footer ul li {
   display: block;
+}
+
+.video {
+  display: inline-block;
+}
+
+.h2footer {
+  padding-bottom: 10px;
+}
+
+.h3footer {
+  padding-bottom: 10px;
+}
+
+.redes {
+  margin-left: 30px;
+}
+
+.volverarriba {
+  text-align: center;
+  display: inline-block;
+  color: white;
 }
 
 .hover {

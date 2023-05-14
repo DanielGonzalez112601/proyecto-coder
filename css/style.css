@@ -80,7 +80,8 @@ main p {
   display: inline-flex;
   height: 600px;
   width: 400px;
-  margin: 1rem; }
+  margin: 1rem;
+  cursor: pointer; }
 
 .zona2 {
   display: inline-block;
@@ -94,7 +95,8 @@ main p {
   height: 280px;
   width: 280px;
   margin-bottom: 30px;
-  padding: 10px; }
+  padding: 10px;
+  cursor: pointer; }
 
 .h2inicio {
   display: inline-block;
@@ -248,13 +250,15 @@ main p {
   cursor: pointer; }
 
 .tamaño {
+  display: inline-block;
   width: 410px;
   height: 315px;
   margin: 10px; }
 
 .limite {
-  width: 70vw;
-  display: inline-block; }
+  width: 60vw;
+  display: inline-block;
+  height: 50px; }
 
 .mainco {
   background-color: rgba(0, 0, 0, 0.664); }
@@ -263,7 +267,11 @@ main p {
   margin: 20px;
   padding: 20px; }
 
-@media (max-width: 600px) {
+.enviarcontacto {
+  margin: 10px;
+  padding: 8px; }
+
+@media (max-width: 700px) {
   .marcas {
     display: inline-flex;
     height: 45px;
@@ -327,9 +335,11 @@ main p {
   .adidasp {
     font-size: 16px; } }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .tamaño {
-    width: 90vw; } }
+    display: inline-block;
+    width: 80vw;
+    margin: auto; } }
 
 @media (max-width: 600px) {
   .zona1 {
@@ -346,21 +356,20 @@ footer {
   font-weight: 400;
   background-color: black;
   color: white;
-  text-align: center;
   font-size: 14px;
-  padding: 20px; }
+  padding: 30px; }
 
 footer img {
   height: 50px;
   width: 50px;
   margin-top: 10px; }
 
-.volverarriba {
-  display: flex;
-  color: white; }
+.divvolverarriba {
+  display: block;
+  text-align: center; }
 
 .footer__list {
-  padding: 6px; }
+  padding-bottom: 10px; }
 
 .imput {
   padding: 10px;
@@ -369,15 +378,28 @@ footer img {
 footer ul h4 {
   padding: 8px; }
 
-footer ul a {
-  margin: 10px; }
-
-footer ul img {
-  margin: 8px;
-  padding: 8px; }
+footer ul {
+  padding: 0; }
 
 footer ul li {
   display: block; }
+
+.video {
+  display: inline-block; }
+
+.h2footer {
+  padding-bottom: 10px; }
+
+.h3footer {
+  padding-bottom: 10px; }
+
+.redes {
+  margin-left: 30px; }
+
+.volverarriba {
+  text-align: center;
+  display: inline-block;
+  color: white; }
 
 .hover {
   font-size: 20px; }

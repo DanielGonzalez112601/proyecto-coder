@@ -1,28 +1,31 @@
 footer {
+
   font-family: 'DynaPuff', cursive;
   font-weight: 400;
   background-color: rgb(0, 0, 0);
   color: white;
-  text-align: center;
+  // text-align: center;
   font-size: 14px;
-  padding: 20px;
+  padding: 30px;
+
 }
 
 footer img {
+
   height: 50px;
   width: 50px;
   margin-top: 10px;
-}
-
-.volverarriba{
-  display: flex;
-  color: white;
 
 }
+.divvolverarriba{
+  display: block;
+  text-align: center;
+}
+
 
 .footer {
   &__list {
-    padding: 6px;
+    padding-bottom: 10px;
 
   }
 }
@@ -30,21 +33,39 @@ footer img {
 .imput {
   padding: 10px;
   margin: 10px;
+
 }
 
 footer ul h4 {
   padding: 8px;
 }
 
-footer ul a {
-  margin: 10px;
-}
-
-footer ul img {
-  margin: 8px;
-  padding: 8px;
+footer ul {
+  padding: 0;
 }
 
 footer ul li {
   display: block;
+}
+
+.video {
+  display: inline-block;
+}
+
+.h2footer {
+  padding-bottom: 10px;
+}
+
+.h3footer {
+  padding-bottom: 10px;
+}
+
+.redes {
+  margin-left: 30px;
+
+}
+.volverarriba {
+  text-align: center;
+  display: inline-block;
+  color: white;
 }
