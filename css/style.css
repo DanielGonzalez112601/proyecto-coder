@@ -78,16 +78,16 @@ main p {
 
 .zona1 {
   display: inline-flex;
-  height: 600px;
-  width: 400px;
-  margin: 1rem;
+  height: 580px;
+  width: 380px;
+  margin: 8px;
   cursor: pointer; }
 
 .zona2 {
   display: inline-block;
-  height: 300px;
-  width: 600px;
-  margin: 1rem;
+  height: 290px;
+  width: 580px;
+  margin: 8px;
   padding: 2px;
   cursor: pointer; }
 
@@ -328,14 +328,48 @@ main p {
   .nikep {
     font-size: 17px; } }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .tamaño {
+    display: inline-block;
+    width: 80vw;
+    margin: auto; } }
+
+@media (max-width: 1400px) {
+  .zona1 {
+    display: inline-block;
+    width: 380px;
+    height: 550px;
+    margin: 10px; }
+  .zona2 {
+    display: inline-block;
+    width: 550px;
+    height: 280px;
+    margin: 10px; } }
+
+@media (max-width: 1250px) {
+  .zona1 {
+    width: 320px;
+    height: 490px;
+    margin: 5px; }
+  .zona2 {
+    width: 480px;
+    height: 260px;
+    margin: 5px; } }
+
+@media (max-width: 1150px) {
+  .zona2adidas {
+    width: 300px;
+    height: 450px;
+    margin: 5px; } }
+
+@media (max-width: 700px) {
   .zona1adidas {
     width: 300px;
     height: 300px;
     margin: 10px; }
   .zona2adidas {
-    width: 300px;
-    height: 400px;
+    width: 220px;
+    height: 350px;
     margin: 5px; }
   .zona3adidas {
     width: 300px;
@@ -348,12 +382,6 @@ main p {
     font-size: 16px; } }
 
 @media (max-width: 700px) {
-  .tamaño {
-    display: inline-block;
-    width: 80vw;
-    margin: auto; } }
-
-@media (max-width: 600px) {
   .zona1 {
     height: 400px;
     width: 300px;
